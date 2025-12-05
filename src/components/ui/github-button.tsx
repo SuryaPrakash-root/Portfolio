@@ -37,7 +37,7 @@ const githubButtonVariants = cva(
 
 interface GithubButtonProps
   extends React.ComponentProps<'button'>,
-    VariantProps<typeof githubButtonVariants> {
+  VariantProps<typeof githubButtonVariants> {
   roundStars?: boolean;
   fixedWidth?: boolean;
   initialStars?: number;
@@ -100,8 +100,17 @@ function GithubButton({
   // Fetch stars from GitHub API
   useEffect(() => {
     fetch('/api/github-stars')
-      .then((res) => res.json())
-      .then((data) => setTargetStars(data.stars));
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Failed to fetch stars');
+        }
+        return res.json();
+      })
+      .then((data) => setTargetStars(data.stars || 0))
+      .catch((error) => {
+        console.error('Error fetching GitHub stars:', error);
+        setTargetStars(0); // Set to 0 on error
+      });
   }, []);
 
   const startAnimation = useCallback(() => {

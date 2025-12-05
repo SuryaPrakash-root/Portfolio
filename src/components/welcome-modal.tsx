@@ -69,7 +69,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
             <DialogHeader className="relative flex flex-row items-start justify-between px-8 pt-8 pb-6">
               <div>
                 <DialogTitle className="flex items-center gap-2 text-4xl font-bold tracking-tight">
-                  Welcome to Yuvraj's AI Portfolio
+                  Welcome to SuryaPrakash's AI Portfolio
                 </DialogTitle>
                 <DialogDescription className="mt-2 text-base">
                   {/*My interactive AI portfolio experience*/}
@@ -135,8 +135,8 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
                 <p className="text-muted-foreground">
                   If you love it, please share it! Feedback is always welcome.
                 </p>
-                <div className="flex cursor-pointer items-center text-blue-500 hover:underline" 
-                onClick={handleContactMe}>
+                <div className="flex cursor-pointer items-center text-blue-500 hover:underline"
+                  onClick={handleContactMe}>
                   Contact me.
                 </div>
               </div>

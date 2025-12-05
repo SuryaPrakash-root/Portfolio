@@ -1,0 +1,111 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "app/api/github-stars/route";
+exports.ids = ["app/api/github-stars/route"];
+exports.modules = {
+
+/***/ "(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fgithub-stars%2Froute&page=%2Fapi%2Fgithub-stars%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fgithub-stars%2Froute.ts&appDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fgithub-stars%2Froute&page=%2Fapi%2Fgithub-stars%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fgithub-stars%2Froute.ts&appDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   patchFetch: () => (/* binding */ patchFetch),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   serverHooks: () => (/* binding */ serverHooks),\n/* harmony export */   workAsyncStorage: () => (/* binding */ workAsyncStorage),\n/* harmony export */   workUnitAsyncStorage: () => (/* binding */ workUnitAsyncStorage)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/route-modules/app-route/module.compiled */ \"(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/server/route-modules/app-route/module.compiled.js\");\n/* harmony import */ var next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/route-kind */ \"(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/server/route-kind.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/server/lib/patch-fetch */ \"(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/server/lib/patch-fetch.js\");\n/* harmony import */ var next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Users_suryaprakashk_Documents_AIMI_Projects_Portfolio1_Portfolio_src_app_api_github_stars_route_ts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/app/api/github-stars/route.ts */ \"(rsc)/./src/app/api/github-stars/route.ts\");\n\n\n\n\n// We inject the nextConfigOutput here so that we can use them in the route\n// module.\nconst nextConfigOutput = \"\"\nconst routeModule = new next_dist_server_route_modules_app_route_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppRouteRouteModule({\n    definition: {\n        kind: next_dist_server_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_ROUTE,\n        page: \"/api/github-stars/route\",\n        pathname: \"/api/github-stars\",\n        filename: \"route\",\n        bundlePath: \"app/api/github-stars/route\"\n    },\n    resolvedPagePath: \"/Users/suryaprakashk/Documents/AIMI-Projects/Portfolio1/Portfolio/src/app/api/github-stars/route.ts\",\n    nextConfigOutput,\n    userland: _Users_suryaprakashk_Documents_AIMI_Projects_Portfolio1_Portfolio_src_app_api_github_stars_route_ts__WEBPACK_IMPORTED_MODULE_3__\n});\n// Pull out the exports that we need to expose from the module. This should\n// be eliminated when we've moved the other routes to the new format. These\n// are used to hook into the route.\nconst { workAsyncStorage, workUnitAsyncStorage, serverHooks } = routeModule;\nfunction patchFetch() {\n    return (0,next_dist_server_lib_patch_fetch__WEBPACK_IMPORTED_MODULE_2__.patchFetch)({\n        workAsyncStorage,\n        workUnitAsyncStorage\n    });\n}\n\n\n//# sourceMappingURL=app-route.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvLnBucG0vbmV4dEAxNS4yLjNfQG9wZW50ZWxlbWV0cnkrYXBpQDEuOS4wX3JlYWN0LWRvbUAxOS4wLjBfcmVhY3RAMTkuMC4wX19yZWFjdEAxOS4wLjAvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1hcHAtbG9hZGVyL2luZGV4LmpzP25hbWU9YXBwJTJGYXBpJTJGZ2l0aHViLXN0YXJzJTJGcm91dGUmcGFnZT0lMkZhcGklMkZnaXRodWItc3RhcnMlMkZyb3V0ZSZhcHBQYXRocz0mcGFnZVBhdGg9cHJpdmF0ZS1uZXh0LWFwcC1kaXIlMkZhcGklMkZnaXRodWItc3RhcnMlMkZyb3V0ZS50cyZhcHBEaXI9JTJGVXNlcnMlMkZzdXJ5YXByYWthc2hrJTJGRG9jdW1lbnRzJTJGQUlNSS1Qcm9qZWN0cyUyRlBvcnRmb2xpbzElMkZQb3J0Zm9saW8lMkZzcmMlMkZhcHAmcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyZyb290RGlyPSUyRlVzZXJzJTJGc3VyeWFwcmFrYXNoayUyRkRvY3VtZW50cyUyRkFJTUktUHJvamVjdHMlMkZQb3J0Zm9saW8xJTJGUG9ydGZvbGlvJmlzRGV2PXRydWUmdHNjb25maWdQYXRoPXRzY29uZmlnLmpzb24mYmFzZVBhdGg9JmFzc2V0UHJlZml4PSZuZXh0Q29uZmlnT3V0cHV0PSZwcmVmZXJyZWRSZWdpb249Jm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEISIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztBQUErRjtBQUN2QztBQUNxQjtBQUNtRDtBQUNoSTtBQUNBO0FBQ0E7QUFDQSx3QkFBd0IseUdBQW1CO0FBQzNDO0FBQ0EsY0FBYyxrRUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUNBO0FBQ0EsWUFBWTtBQUNaLENBQUM7QUFDRDtBQUNBO0FBQ0E7QUFDQSxRQUFRLHNEQUFzRDtBQUM5RDtBQUNBLFdBQVcsNEVBQVc7QUFDdEI7QUFDQTtBQUNBLEtBQUs7QUFDTDtBQUMwRjs7QUFFMUYiLCJzb3VyY2VzIjpbIiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBcHBSb3V0ZVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvcm91dGUtbW9kdWxlcy9hcHAtcm91dGUvbW9kdWxlLmNvbXBpbGVkXCI7XG5pbXBvcnQgeyBSb3V0ZUtpbmQgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBwYXRjaEZldGNoIGFzIF9wYXRjaEZldGNoIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvbGliL3BhdGNoLWZldGNoXCI7XG5pbXBvcnQgKiBhcyB1c2VybGFuZCBmcm9tIFwiL1VzZXJzL3N1cnlhcHJha2FzaGsvRG9jdW1lbnRzL0FJTUktUHJvamVjdHMvUG9ydGZvbGlvMS9Qb3J0Zm9saW8vc3JjL2FwcC9hcGkvZ2l0aHViLXN0YXJzL3JvdXRlLnRzXCI7XG4vLyBXZSBpbmplY3QgdGhlIG5leHRDb25maWdPdXRwdXQgaGVyZSBzbyB0aGF0IHdlIGNhbiB1c2UgdGhlbSBpbiB0aGUgcm91dGVcbi8vIG1vZHVsZS5cbmNvbnN0IG5leHRDb25maWdPdXRwdXQgPSBcIlwiXG5jb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBSb3V0ZVJvdXRlTW9kdWxlKHtcbiAgICBkZWZpbml0aW9uOiB7XG4gICAgICAgIGtpbmQ6IFJvdXRlS2luZC5BUFBfUk9VVEUsXG4gICAgICAgIHBhZ2U6IFwiL2FwaS9naXRodWItc3RhcnMvcm91dGVcIixcbiAgICAgICAgcGF0aG5hbWU6IFwiL2FwaS9naXRodWItc3RhcnNcIixcbiAgICAgICAgZmlsZW5hbWU6IFwicm91dGVcIixcbiAgICAgICAgYnVuZGxlUGF0aDogXCJhcHAvYXBpL2dpdGh1Yi1zdGFycy9yb3V0ZVwiXG4gICAgfSxcbiAgICByZXNvbHZlZFBhZ2VQYXRoOiBcIi9Vc2Vycy9zdXJ5YXByYWthc2hrL0RvY3VtZW50cy9BSU1JLVByb2plY3RzL1BvcnRmb2xpbzEvUG9ydGZvbGlvL3NyYy9hcHAvYXBpL2dpdGh1Yi1zdGFycy9yb3V0ZS50c1wiLFxuICAgIG5leHRDb25maWdPdXRwdXQsXG4gICAgdXNlcmxhbmRcbn0pO1xuLy8gUHVsbCBvdXQgdGhlIGV4cG9ydHMgdGhhdCB3ZSBuZWVkIHRvIGV4cG9zZSBmcm9tIHRoZSBtb2R1bGUuIFRoaXMgc2hvdWxkXG4vLyBiZSBlbGltaW5hdGVkIHdoZW4gd2UndmUgbW92ZWQgdGhlIG90aGVyIHJvdXRlcyB0byB0aGUgbmV3IGZvcm1hdC4gVGhlc2Vcbi8vIGFyZSB1c2VkIHRvIGhvb2sgaW50byB0aGUgcm91dGUuXG5jb25zdCB7IHdvcmtBc3luY1N0b3JhZ2UsIHdvcmtVbml0QXN5bmNTdG9yYWdlLCBzZXJ2ZXJIb29rcyB9ID0gcm91dGVNb2R1bGU7XG5mdW5jdGlvbiBwYXRjaEZldGNoKCkge1xuICAgIHJldHVybiBfcGF0Y2hGZXRjaCh7XG4gICAgICAgIHdvcmtBc3luY1N0b3JhZ2UsXG4gICAgICAgIHdvcmtVbml0QXN5bmNTdG9yYWdlXG4gICAgfSk7XG59XG5leHBvcnQgeyByb3V0ZU1vZHVsZSwgd29ya0FzeW5jU3RvcmFnZSwgd29ya1VuaXRBc3luY1N0b3JhZ2UsIHNlcnZlckhvb2tzLCBwYXRjaEZldGNoLCAgfTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9YXBwLXJvdXRlLmpzLm1hcCJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fgithub-stars%2Froute&page=%2Fapi%2Fgithub-stars%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fgithub-stars%2Froute.ts&appDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/api/github-stars/route.ts":
+/*!*******************************************!*\
+  !*** ./src/app/api/github-stars/route.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GET: () => (/* binding */ GET)\n/* harmony export */ });\nasync function GET() {\n    try {\n        // Use the correct GitHub API endpoint\n        const res = await fetch('https://api.github.com/repos/SuryaPrakash-root/Portfolio', {\n            headers: {\n                Accept: 'application/vnd.github.v3+json',\n                'User-Agent': 'Portfolio-App',\n                ...process.env.GITHUB_TOKEN && {\n                    Authorization: `Bearer ${process.env.GITHUB_TOKEN}`\n                }\n            },\n            next: {\n                revalidate: 3600\n            }\n        });\n        if (!res.ok) {\n            console.error('GitHub API error:', res.status, res.statusText);\n            // Return a default value instead of throwing an error\n            return Response.json({\n                stars: 0\n            });\n        }\n        // Check if response is JSON\n        const contentType = res.headers.get('content-type');\n        if (!contentType || !contentType.includes('application/json')) {\n            console.error('GitHub API returned non-JSON response:', contentType);\n            const text = await res.text();\n            console.error('Response body:', text.substring(0, 200));\n            return Response.json({\n                stars: 0\n            });\n        }\n        const data = await res.json();\n        return Response.json({\n            stars: data.stargazers_count || 0\n        });\n    } catch (error) {\n        console.error('Error fetching GitHub stars:', error);\n        // Return a default value on error\n        return Response.json({\n            stars: 0\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2FwaS9naXRodWItc3RhcnMvcm91dGUudHMiLCJtYXBwaW5ncyI6Ijs7OztBQUFPLGVBQWVBO0lBQ3BCLElBQUk7UUFDRixzQ0FBc0M7UUFDdEMsTUFBTUMsTUFBTSxNQUFNQyxNQUNoQiw0REFDQTtZQUNFQyxTQUFTO2dCQUNQQyxRQUFRO2dCQUNSLGNBQWM7Z0JBQ2QsR0FBSUMsUUFBUUMsR0FBRyxDQUFDQyxZQUFZLElBQUk7b0JBQzlCQyxlQUFlLENBQUMsT0FBTyxFQUFFSCxRQUFRQyxHQUFHLENBQUNDLFlBQVksRUFBRTtnQkFDckQsQ0FBQztZQUNIO1lBQ0FFLE1BQU07Z0JBQUVDLFlBQVk7WUFBSztRQUMzQjtRQUdGLElBQUksQ0FBQ1QsSUFBSVUsRUFBRSxFQUFFO1lBQ1hDLFFBQVFDLEtBQUssQ0FBQyxxQkFBcUJaLElBQUlhLE1BQU0sRUFBRWIsSUFBSWMsVUFBVTtZQUM3RCxzREFBc0Q7WUFDdEQsT0FBT0MsU0FBU0MsSUFBSSxDQUFDO2dCQUFFQyxPQUFPO1lBQUU7UUFDbEM7UUFFQSw0QkFBNEI7UUFDNUIsTUFBTUMsY0FBY2xCLElBQUlFLE9BQU8sQ0FBQ2lCLEdBQUcsQ0FBQztRQUNwQyxJQUFJLENBQUNELGVBQWUsQ0FBQ0EsWUFBWUUsUUFBUSxDQUFDLHFCQUFxQjtZQUM3RFQsUUFBUUMsS0FBSyxDQUFDLDBDQUEwQ007WUFDeEQsTUFBTUcsT0FBTyxNQUFNckIsSUFBSXFCLElBQUk7WUFDM0JWLFFBQVFDLEtBQUssQ0FBQyxrQkFBa0JTLEtBQUtDLFNBQVMsQ0FBQyxHQUFHO1lBQ2xELE9BQU9QLFNBQVNDLElBQUksQ0FBQztnQkFBRUMsT0FBTztZQUFFO1FBQ2xDO1FBRUEsTUFBTU0sT0FBTyxNQUFNdkIsSUFBSWdCLElBQUk7UUFDM0IsT0FBT0QsU0FBU0MsSUFBSSxDQUFDO1lBQUVDLE9BQU9NLEtBQUtDLGdCQUFnQixJQUFJO1FBQUU7SUFDM0QsRUFBRSxPQUFPWixPQUFPO1FBQ2RELFFBQVFDLEtBQUssQ0FBQyxnQ0FBZ0NBO1FBQzlDLGtDQUFrQztRQUNsQyxPQUFPRyxTQUFTQyxJQUFJLENBQUM7WUFBRUMsT0FBTztRQUFFO0lBQ2xDO0FBQ0YiLCJzb3VyY2VzIjpbIi9Vc2Vycy9zdXJ5YXByYWthc2hrL0RvY3VtZW50cy9BSU1JLVByb2plY3RzL1BvcnRmb2xpbzEvUG9ydGZvbGlvL3NyYy9hcHAvYXBpL2dpdGh1Yi1zdGFycy9yb3V0ZS50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgYXN5bmMgZnVuY3Rpb24gR0VUKCkge1xuICB0cnkge1xuICAgIC8vIFVzZSB0aGUgY29ycmVjdCBHaXRIdWIgQVBJIGVuZHBvaW50XG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goXG4gICAgICAnaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TdXJ5YVByYWthc2gtcm9vdC9Qb3J0Zm9saW8nLFxuICAgICAge1xuICAgICAgICBoZWFkZXJzOiB7XG4gICAgICAgICAgQWNjZXB0OiAnYXBwbGljYXRpb24vdm5kLmdpdGh1Yi52Mytqc29uJyxcbiAgICAgICAgICAnVXNlci1BZ2VudCc6ICdQb3J0Zm9saW8tQXBwJyxcbiAgICAgICAgICAuLi4ocHJvY2Vzcy5lbnYuR0lUSFVCX1RPS0VOICYmIHtcbiAgICAgICAgICAgIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHtwcm9jZXNzLmVudi5HSVRIVUJfVE9LRU59YCxcbiAgICAgICAgICB9KSxcbiAgICAgICAgfSxcbiAgICAgICAgbmV4dDogeyByZXZhbGlkYXRlOiAzNjAwIH0sIC8vIENhY2hlIGZvciAxIGhvdXJcbiAgICAgIH1cbiAgICApO1xuXG4gICAgaWYgKCFyZXMub2spIHtcbiAgICAgIGNvbnNvbGUuZXJyb3IoJ0dpdEh1YiBBUEkgZXJyb3I6JywgcmVzLnN0YXR1cywgcmVzLnN0YXR1c1RleHQpO1xuICAgICAgLy8gUmV0dXJuIGEgZGVmYXVsdCB2YWx1ZSBpbnN0ZWFkIG9mIHRocm93aW5nIGFuIGVycm9yXG4gICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IHN0YXJzOiAwIH0pO1xuICAgIH1cblxuICAgIC8vIENoZWNrIGlmIHJlc3BvbnNlIGlzIEpTT05cbiAgICBjb25zdCBjb250ZW50VHlwZSA9IHJlcy5oZWFkZXJzLmdldCgnY29udGVudC10eXBlJyk7XG4gICAgaWYgKCFjb250ZW50VHlwZSB8fCAhY29udGVudFR5cGUuaW5jbHVkZXMoJ2FwcGxpY2F0aW9uL2pzb24nKSkge1xuICAgICAgY29uc29sZS5lcnJvcignR2l0SHViIEFQSSByZXR1cm5lZCBub24tSlNPTiByZXNwb25zZTonLCBjb250ZW50VHlwZSk7XG4gICAgICBjb25zdCB0ZXh0ID0gYXdhaXQgcmVzLnRleHQoKTtcbiAgICAgIGNvbnNvbGUuZXJyb3IoJ1Jlc3BvbnNlIGJvZHk6JywgdGV4dC5zdWJzdHJpbmcoMCwgMjAwKSk7XG4gICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IHN0YXJzOiAwIH0pO1xuICAgIH1cblxuICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpO1xuICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgc3RhcnM6IGRhdGEuc3RhcmdhemVyc19jb3VudCB8fCAwIH0pO1xuICB9IGNhdGNoIChlcnJvcikge1xuICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yIGZldGNoaW5nIEdpdEh1YiBzdGFyczonLCBlcnJvcik7XG4gICAgLy8gUmV0dXJuIGEgZGVmYXVsdCB2YWx1ZSBvbiBlcnJvclxuICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgc3RhcnM6IDAgfSk7XG4gIH1cbn0iXSwibmFtZXMiOlsiR0VUIiwicmVzIiwiZmV0Y2giLCJoZWFkZXJzIiwiQWNjZXB0IiwicHJvY2VzcyIsImVudiIsIkdJVEhVQl9UT0tFTiIsIkF1dGhvcml6YXRpb24iLCJuZXh0IiwicmV2YWxpZGF0ZSIsIm9rIiwiY29uc29sZSIsImVycm9yIiwic3RhdHVzIiwic3RhdHVzVGV4dCIsIlJlc3BvbnNlIiwianNvbiIsInN0YXJzIiwiY29udGVudFR5cGUiLCJnZXQiLCJpbmNsdWRlcyIsInRleHQiLCJzdWJzdHJpbmciLCJkYXRhIiwic3RhcmdhemVyc19jb3VudCJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/api/github-stars/route.ts\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true!":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?server=true! ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "../app-render/work-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-async-storage.external.js" ***!
+  \*****************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-async-storage.external.js");
+
+/***/ }),
+
+/***/ "./work-unit-async-storage.external":
+/*!**********************************************************************************!*\
+  !*** external "next/dist/server/app-render/work-unit-async-storage.external.js" ***!
+  \**********************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/app-render/work-unit-async-storage.external.js");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/app-route.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-route.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/next-server/app-route.runtime.dev.js");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0","vendor-chunks/@opentelemetry+api@1.9.0"], () => (__webpack_exec__("(rsc)/./node_modules/.pnpm/next@15.2.3_@opentelemetry+api@1.9.0_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fapi%2Fgithub-stars%2Froute&page=%2Fapi%2Fgithub-stars%2Froute&appPaths=&pagePath=private-next-app-dir%2Fapi%2Fgithub-stars%2Froute.ts&appDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fsuryaprakashk%2FDocuments%2FAIMI-Projects%2FPortfolio1%2FPortfolio&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();

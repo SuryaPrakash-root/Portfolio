@@ -7,211 +7,135 @@ import { Separator } from '@/components/ui/separator';
 // --- PROJECT DATABASE ---
 // This array holds the detailed information for each project.
 const PROJECT_CONTENT = [
-    {
-    // --- NEW AI-NATIVE PORTFOLIO PROJECT ---
-    title: 'AI-Native Portfolio',
-    description:
-      'Static portfolios are boring. Mine talks back. The world’s first AI-native portfolio where an AI avatar answers your questions about me in real time.',
-    techStack: [
-      'Next.js',
-      'React',
-      'TypeScript',
-      'Tailwind CSS',
-      'Framer Motion',
-      'Mistral AI API',
-      'OpenAI API',
-      'Node.js',
-      'Vercel',
-    ],
-    date: 'August 2025', // <-- TODO: Update with your project date
-    links: [
-      {
-        name: 'Live Demo - You Are Here!',
-        url: 'https://www.yuvraj.bio',
-      },
-      {
-        name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/ai-native-portfolio',
-      },
-    ],
-    images: [
-      { src: '/projects/ai-portfolio-chat.png', alt: 'The AI Native Portfolio chat interface in action' },
-      { src: '/projects/ai-portfolio-home.png', alt: 'Homepage of the AI Native Portfolio' },
-    ],
-  },
   {
-    title: 'AgroAI',
+    title: 'Google Assistant Based Electric Device Control',
     description:
-      'Snap a leaf, get a diagnosis! This AI-powered web app detects 38 plant diseases with 96% accuracy and gives instant tips on symptoms, causes, and treatment—making plant care smarter and easier for farmers and gardeners.',
+      'A Google Assistant device was used to control the whole process through voice commands. Voice commands are used as input for the device to connect our Google Assistant device to the Adafruit server, which allows hundreds of different services to trigger actions in a variety of other services. Controlling the light fans and other home appliances are done with voice commands. The Google assistant-controlled device has a processing unit. It will process all input commands. The light and fans have separate driver modules to control. The processing unit controls the driver module. The process like on/off of appliances, adjusting the speed of the fan, and adjusting the brightness of light occur done by the control module.',
     techStack: [
-      'Python',
-      'Flask',
-      'TensorFlow',
-      'Keras',
-      'Deep Learning',
-      'Computer Vision',
-      'EfficientNetB4',
-      'HTML5',
-      'CSS3',
-      'JavaScript',
+      'Google Assistant',
+      'Adafruit IO',
+      'IoT',
+      'Voice Control',
+      'Home Automation',
+      'Arduino',
     ],
-    date: 'May 2024',
-    links: [
-      {
-        name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/AgroAI', // <-- TODO: Replace with your live deployment URL.... will do later
-      },
-      {
-        name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/AgroAI', // <-- TODO: Replace with your actual repo URL if different
-      },
-    ],
-    // All seven of screenshots are showcased here
-    images: [
-      {
-        src: '/projects/agroai-home.png',
-        alt: 'AgroAI Homepage - AI-Powered Plant Health Companion',
-      },
-      {
-        src: '/projects/agroai-result.png',
-        alt: 'AgroAI Analysis Result Page with Prediction and Confidence Score',
-      },
-      {
-        src: '/projects/agroai-guide.png',
-        alt: 'AgroAI Crop-wise Disease Guides Page',
-      },
-      {
-        src: '/projects/agroai-guide-detail.png',
-        alt: 'AgroAI Tomato Disease Guide Detail Page with Accordion',
-      },
-      {
-        src: '/projects/agroai-how-it-works.png',
-        alt: 'AgroAI How It Works Page with a 3-step flowchart',
-      },
-      {
-        src: '/projects/agroai-resources.png',
-        alt: 'AgroAI Farming & Plant Care Resources Page',
-      },
-      {
-        src: '/projects/agroai-about.png',
-        alt: 'AgroAI About and Contact Page',
-      },
-    ],
-  },
-  {
-    // --- NEW DJANGO E-COMMERCE PROJECT ---
-    title: 'Holohype',
-    description:
-      'HoloHype is a quirky full-stack e-commerce hub with a clever AI that knows what you want, a lightning-fast cart, secure logins, and a super-handy admin panel to keep all the goodies in check.',
-    techStack: [
-      'Django',
-      'Python',
-      'Cython',
-      'Content-Based Filtering',
-      'NumPy',
-      'Pandas',
-      'JavaScript',
-      'AJAX',
-      'HTML5',
-      'CSS3',
-    ],
-    date: 'June 2025', // <-- TODO: Update with your project date
-    links: [
-      {
-        name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/holohype', // <-- TODO: Replace with your live deployment URL
-      },
-      {
-        name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/holohype', // <-- TODO: Update with your actual repo URL
-      },
-    ],
-    images: [
-      { src: '/projects/holohype-home.png', alt: 'E-commerce platform homepage with product listings' },
-      { src: '/projects/holohype-login.png', alt: 'Modern user login and authentication page' },
-      { src: '/projects/holohype-product.png', alt: 'Product detail page with AI-powered recommendations' },
-      { src: '/projects/holohype-cart.png', alt: 'Dynamic shopping cart with real-time updates' },
-    ],
-  },
-  {
-    // --- NEW REACT PORTFOLIO PROJECT ---
-    title: 'Old Portfolio',
-    description:
-      'A stellar dev portfolio with shooting stars on a dark space background! Built with React, Vite & Tailwind, it features sleek animations, dark/light mode, a filterable skills grid, dynamic project showcase, and a working contact form. A cosmic way to show off my frontend skills!',
-    techStack: [
-      'React',
-      'Vite',
-      'Tailwind CSS',
-      'Radix UI',
-      'Lucide Icons',
-      'TypeScript',
-      'Responsive Design',
-    ],
-    date: '2024', // <-- TODO: Update with your project date
-    links: [
-      {
-        name: 'Live Demo',
-        url: 'https://yuvraj-portfolio-phi.vercel.app', // <-- TODO: Update if this is the correct link
-      },
-      {
-        name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/react-tailwind-portfolio', // <-- TODO: Update with your actual repo URL
-      },
-    ],
-    images: [
-      { src: '/projects/old-portfolio-home.png', alt: 'Homepage of the React portfolio with hero section' },
-      { src: '/projects/old-portfolio-about.png', alt: 'About Me section with description' },
-      { src: '/projects/old-portfolio-skills.png', alt: 'Filterable skills grid with progress bars' },
-      { src: '/projects/old-portfolio-projects.png', alt: 'Project showcase section with cards' },
-      { src: '/projects/old-portfolio-contact.png', alt: 'Contact page with form to reach out directly' },
-    ],
-  },
-  {
-    // --- YOUTUBE CLONE PROJECT (FROM YOUR README) ---
-    title: 'YouTube Clone',
-    description:
-      'A pixel-perfect, responsive clone of the YouTube user interface, built from scratch using modern HTML5 and CSS3. The project showcases a deep understanding of frontend fundamentals, featuring a dynamic video grid built with CSS Grid, a fully responsive sidebar and header created with Flexbox, and a mobile-first design approach that ensures a seamless experience on any device.',
-    techStack: [
-      'HTML5',
-      'CSS3',
-      'Flexbox',
-      'CSS Grid',
-      'Responsive Design',
-      'Mobile-First',
-    ],
-    date: '2023', // <-- TODO: Update with your project date
-    links: [
-      {
-        name: 'Live Demo',
-        url: 'https://github.com/yuvraj0412s/YouTube_clone', // <-- TODO: Replace with your live deployment URL
-      },
-      {
-        name: 'GitHub Repository',
-        url: 'https://github.com/yuvraj0412s/YouTube_clone', // <-- TODO: Update if your repo name is different
-      },
-    ],
-    images: [
-      { src: '/projects/yt-clone-home.png', alt: 'Screenshot of the YouTube Clone project homepage' },
-      // Add more screenshots here if you have them!
-    ],
-  },
-  {
-    title: 'Latency-Aware Task Partitioning',
-    description:
-      'Proposed a framework for optimal task partitioning and user association across edge–fog–cloud layers, implementing metaheuristic algorithms (ACO, GA, PSO) to solve MILP-based formulations for both dependent and independent subtasks.',
-    techStack: [
-      'Python',
-      'Metaheuristic Algorithms (ACO, GA, PSO)',
-      'MILP',
-      'Edge Computing',
-    ],
-    date: 'Ongoing',
+    date: 'Jan 2020 - Apr 2020',
+    associatedWith: 'Anna University, Coimbatore',
     links: [],
     images: [
+      { src: '/projects/placeholder.png', alt: 'Google Assistant IoT Project' },
+    ],
+  },
+  {
+    title: 'IoT Based Plant Monitoring System',
+    description:
+      'In this project, we mainly use an ARDUINO and BOLT as a platform for the transmission, which controls the sensor\'s reading and updates to the online server every 5 seconds. Where ESP8266 is a wifi module that connects the BOLT platform through the server login id. By simply Turn on the hotspot the board automatically connects to the server. Hear we connect 3 sensors mainly humidity sensor – which monitors the humidity of an atmosphere and reports to the server. Soil moisture sensor – which detects the moisture in the soil. IoT is short for the Internet of Things. The Internet of Things(IoT) is internetworking of physical devices. This system has the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.',
+    techStack: [
+      'Arduino',
+      'Bolt IoT',
+      'ESP8266',
+      'Humidity Sensor',
+      'Soil Moisture Sensor',
+      'IoT',
+      'Cloud Integration',
+    ],
+    date: 'Aug 2019 - Nov 2019',
+    associatedWith: 'Anna University, Coimbatore',
+    links: [],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'IoT Plant Monitoring System' },
+    ],
+  },
+  {
+    title: 'Amazon Music Clustering (AI/ML)',
+    description:
+      'Machine learning project focused on clustering Amazon music data to identify patterns and group similar songs. Applied unsupervised learning techniques to analyze music features and create meaningful clusters for music recommendation systems.',
+    techStack: ['Python', 'Machine Learning', 'Clustering', 'Data Analysis', 'Pandas', 'NumPy'],
+    date: '2024',
+    associatedWith: 'Guvi Online Education Platform',
+    links: [],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'Amazon Music Clustering Project' },
+    ],
+  },
+  {
+    title: 'Luxury House Price Analysis - Bangalore',
+    description:
+      'Comprehensive data science project involving Exploratory Data Analysis (EDA), Data Visualization, and PostgreSQL database integration for analyzing luxury house prices in Bangalore. Performed statistical analysis and created interactive visualizations to identify pricing trends and market insights.',
+    techStack: ['Python', 'EDA', 'Data Visualization', 'PostgreSQL', 'Pandas', 'Matplotlib', 'Seaborn'],
+    date: '2024',
+    associatedWith: 'Guvi Online Education Platform',
+    links: [
       {
-        src: '/projects/RP_preview.png', // Placeholder image
-        alt: 'Latency-Aware Task Partitioning project image 1',
+        name: 'GitHub Repository',
+        url: 'https://github.com/SuryaPrakash-root/Luxury_House_Bangalore',
       },
+    ],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'Luxury House Bangalore Analysis' },
+    ],
+  },
+  {
+    title: 'Multiclass Fish Image Classification',
+    description:
+      'Developed a deep learning model for classifying fish images into multiple classes. The project involved comprehensive data preparation, cleaning, and visualization. Implemented convolutional neural networks (CNN) to achieve high accuracy in fish species identification, useful for marine biology research and fisheries management.',
+    techStack: [
+      'Deep Learning',
+      'Python',
+      'TensorFlow',
+      'Keras',
+      'CNN',
+      'Image Classification',
+      'Data Visualization',
+      'OpenCV',
+    ],
+    date: '2024',
+    associatedWith: 'Guvi Online Education Platform',
+    links: [
+      {
+        name: 'GitHub Repository',
+        url: 'https://github.com/SuryaPrakash-root/Multiclass_Fish_Image_Classification',
+      },
+    ],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'Fish Image Classification Project' },
+    ],
+  },
+  {
+    title: 'PhonePe Data Visualization',
+    description:
+      'Data visualization project utilizing Python and PostgreSQL to analyze and visualize PhonePe transaction data. Created interactive dashboards and charts to display payment trends, user behavior patterns, and transaction analytics. Implemented database queries to extract meaningful insights from large-scale financial data.',
+    techStack: ['Python', 'PostgreSQL', 'Data Visualization', 'Pandas', 'Plotly', 'Streamlit'],
+    date: '2024',
+    associatedWith: 'Guvi Online Education Platform',
+    links: [
+      {
+        name: 'GitHub Repository',
+        url: 'https://github.com/SuryaPrakash-root/Phonepay_Project_1',
+      },
+    ],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'PhonePe Data Visualization' },
+    ],
+  },
+  {
+    title: 'Transaction Fraud Detection (AI/ML)',
+    description:
+      'Academic project focused on developing supervised machine learning models to detect fraudulent transactions using anomaly detection algorithms. Implemented classification techniques including Random Forest, XGBoost, and Neural Networks to identify patterns in financial data and improve fraud detection accuracy. The system analyzes transaction features to flag suspicious activities in real-time.',
+    techStack: [
+      'Machine Learning',
+      'Anomaly Detection',
+      'Fraud Detection',
+      'Classification',
+      'Python',
+      'Scikit-learn',
+      'XGBoost',
+    ],
+    date: '2024',
+    associatedWith: 'Academic Project',
+    links: [],
+    images: [
+      { src: '/projects/placeholder.png', alt: 'Transaction Fraud Detection' },
     ],
   },
 ];
@@ -238,6 +162,12 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-sm text-neutral-500 dark:text-neutral-400">
             <span>{projectData.date}</span>
+            {projectData.associatedWith && (
+              <>
+                <span className="mx-1">•</span>
+                <span>{projectData.associatedWith}</span>
+              </>
+            )}
           </div>
 
           <p className="text-secondary-foreground font-sans text-base leading-relaxed md:text-lg">
@@ -317,53 +247,60 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
 // --- MAIN DATA EXPORT ---
 // This is the data used by your main portfolio page.
 export const data = [
-   {
-    category: 'AI & Next.js',
-    title: 'AI-Native Portfolio',
-    src: '/projects/ai-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
+  {
+    category: 'IoT & Home Automation',
+    title: 'Google Assistant Based Electric Device Control',
+    src: '/projects/placeholder.png',
     content: (
-      // The `title` here MUST match the full title in PROJECT_CONTENT
-      <ProjectContent project={{ title: 'AI-Native Portfolio' }} />
+      <ProjectContent project={{ title: 'Google Assistant Based Electric Device Control' }} />
     ),
   },
   {
-    category: 'Full-Stack AI',
-    title: 'AgroAI',
-    src: '/projects/agroai-preview.png', // Use the main homepage screenshot for the preview
+    category: 'IoT & Agriculture',
+    title: 'IoT Based Plant Monitoring System',
+    src: '/projects/placeholder.png',
     content: (
-      <ProjectContent project={{ title: 'AgroAI' }} />
+      <ProjectContent project={{ title: 'IoT Based Plant Monitoring System' }} />
     ),
   },
   {
-    category: 'Full-Stack & AI',
-    title: 'Holohype',
-    src: '/projects/holohype-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'AI/ML & Music Analytics',
+    title: 'Amazon Music Clustering (AI/ML)',
+    src: '/projects/placeholder.png',
     content: (
-      <ProjectContent project={{ title: 'Holohype' }} />
+      <ProjectContent project={{ title: 'Amazon Music Clustering (AI/ML)' }} />
     ),
   },
   {
-    category: 'Frontend Development',
-    title: 'Old Portfolio',
-    src: '/projects/old-portfolio-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'Data Science & Real Estate',
+    title: 'Luxury House Price Analysis - Bangalore',
+    src: '/projects/placeholder.png',
     content: (
-      <ProjectContent project={{ title: 'Old Portfolio' }} />
+      <ProjectContent project={{ title: 'Luxury House Price Analysis - Bangalore' }} />
     ),
   },
   {
-    category: 'Frontend Development',
-    title: 'YouTube Clone',
-    src: '/projects/yt-clone-preview.png', // <-- TODO: Make sure you have a preview image at this path
+    category: 'Deep Learning & Computer Vision',
+    title: 'Multiclass Fish Image Classification',
+    src: '/projects/placeholder.png',
     content: (
-      <ProjectContent project={{ title: 'YouTube Clone' }} />
+      <ProjectContent project={{ title: 'Multiclass Fish Image Classification' }} />
     ),
   },
   {
-    category: 'Edge Computing',
-    title: 'Latency-Aware Task Partitioning',
-    src: '/projects/RP_preview.png', // Placeholder image
+    category: 'Data Science & FinTech',
+    title: 'PhonePe Data Visualization',
+    src: '/projects/placeholder.png',
     content: (
-      <ProjectContent project={{ title: 'Latency-Aware Task Partitioning' }} />
+      <ProjectContent project={{ title: 'PhonePe Data Visualization' }} />
+    ),
+  },
+  {
+    category: 'AI/ML & Cybersecurity',
+    title: 'Transaction Fraud Detection (AI/ML)',
+    src: '/projects/placeholder.png',
+    content: (
+      <ProjectContent project={{ title: 'Transaction Fraud Detection (AI/ML)' }} />
     ),
   },
 ];

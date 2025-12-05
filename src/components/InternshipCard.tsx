@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 const InternshipCard = () => {
   const openMail = () => {
-    window.open('mailto:yuvraj0412s@gmail.com', '_blank');
+    window.open('mailto:Suryaprakash@zohomail.in', '_blank');
   };
   const router = useRouter();
 
@@ -24,16 +24,16 @@ const InternshipCard = () => {
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
               src="/profile-yuvi.jpg"
-              alt="Yuvraj's avatar"
+              alt="SuryaPrakash's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Yuvraj Singh
+              SuryaPrakash K
             </h2>
             <p className="text-muted-foreground text-sm">
-              Internship Application
+              Open for Opportunities
             </p>
           </div>
         </div>
@@ -55,9 +55,9 @@ const InternshipCard = () => {
         <div className="flex items-start gap-3">
           <CalendarDays className="mt-1 h-5 w-5 text-blue-500" />
           <div>
-            <p className="text-foreground text-sm font-medium">Duration</p>
+            <p className="text-foreground text-sm font-medium">Availability</p>
             <p className="text-muted-foreground text-sm">
-              currently open for contributions August (2025)
+              Open for full-time opportunities (December 2025)
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably Gurugram
+              Bangalore, India (Open to relocation)
             </p>
           </div>
         </div>
@@ -78,16 +78,16 @@ const InternshipCard = () => {
             <p className="text-foreground text-sm font-medium">Tech stack</p>
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
-                <li>Python, Next.js, SQL</li>
-                <li>Flask, Django</li>
-                <li>OpenAI, Mistral, Claude</li>
-                <li>Prompt engineering, fine-tuning</li>
+                <li>Fortigate Firewalls</li>
+                <li>Sophos Endpoint/XDR</li>
+                <li>Network Security (Cisco, Aruba)</li>
+                <li>Python Security Automation</li>
               </ul>
               <ul className="list-disc pl-4">
-                <li>JavaScript, React</li>
-                <li>Hugging Face Transformers</li>
-                <li>TensorFlow, PyTorch</li>
-                <li>LangChain + AI agent workflows</li>
+                <li>AI/ML for Cybersecurity</li>
+                <li>Threat Detection & Analysis</li>
+                <li>Malware Analysis</li>
+                <li>Linux System Hardening</li>
                 <li>
                   <a
                     href="/chat?query=What%20are%20your%20skills%3F%20Give%20me%20a%20list%20of%20your%20soft%20and%20hard%20skills."
@@ -108,9 +108,9 @@ const InternshipCard = () => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          Real-world AI dev experience. <br /> 
-          Blending AI passion with hands-on development to bring tech ideas to life. <br /> 
-          I ship fast, and love building useful things that actually work.
+          4+ years of hands-on security engineering experience. <br />
+          Expertise in network security, endpoint protection, and threat detection. <br />
+          Combining traditional security with AI/ML to build intelligent defense systems.
         </p>
       </div>
 
@@ -118,9 +118,9 @@ const InternshipCard = () => {
       <div className="mt-8">
         <p className="text-foreground mb-2 text-lg font-semibold">Goal</p>
         <p className="text-foreground text-sm">
-          Join a bold, innovative team building AI-powered tools that matter. I
-          want to improve fast, contribute hard, and leave a mark. I’m fast,
-          flexible, and HUNGRYYYYY 🔥
+          Join a forward-thinking team working on cutting-edge cybersecurity solutions.
+          Passionate about leveraging AI/ML to enhance threat detection and automate security operations.
+          Ready to contribute to building secure, scalable, and resilient systems. �
         </p>
       </div>
 

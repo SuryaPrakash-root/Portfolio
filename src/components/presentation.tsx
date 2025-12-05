@@ -7,12 +7,12 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Yuvraj Singh',
-    age: '22 years old',
-    location: 'Gurugram, India',
+    name: 'SuryaPrakash K',
+    age: '27 years old',
+    location: 'Bangalore, India',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Yuvraj also known as Yuvi, building AI-powered experiences that talk back, think with you, and make static tech feel alive.",
+      "Hey 👋\nI'm SuryaPrakash, a Security Engineer with over four years of experience in safeguarding IT infrastructure and managing enterprise security solutions. I specialize in AI/ML for Cybersecurity, combining traditional security engineering with intelligent systems to enhance threat detection and automate incident response.\n\nI'm passionate about building secure, scalable environments using network security, malware analysis, and AI-driven intelligence to stay ahead of emerging threats.",
     src: '/profile-yuvi-03.jpeg',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
@@ -103,7 +103,7 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI', 'Developer', 'Sport', 'SaaS Builder'].map(
+            {['AI/ML', 'Cybersecurity', 'Network Security', 'Malware Analysis'].map(
               (tag) => (
                 <span
                   key={tag}

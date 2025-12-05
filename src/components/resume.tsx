@@ -7,21 +7,23 @@ import Image from 'next/image';
 
 export function Resume() {
   // Resume details
-  const resumeDetails = {
-    title: "Yuvraj's Resume",
-    description: 'Data Science & AI Enthusiast',
+  const resumeData = {
+    title: "SuryaPrakash K's Resume",
+    description:
+      'Security Engineer | AI/ML for Cybersecurity | 4+ Years Experience',
     fileType: 'PDF',
-    lastUpdated: 'July 2025',
+    lastUpdated: 'December 2025',
     fileSize: '0.3 MB',
-    previewImageSrc: '/Resume_Yuvraj_Singh_AI.png',
-    downloadUrl: '/Resume_Yuvraj_Singh_AI.pdf',
+    // Update these paths to match your actual resume files in the /public folder
+    previewImageSrc: '/Resume_SuryaPrakash_K.png',
+    downloadUrl: '/Resume_SuryaPrakash_K.pdf',
   };
 
   const handleDownload = () => {
     // Create a link element
     const link = document.createElement('a');
-    link.href = resumeDetails.downloadUrl;
-    link.download = resumeDetails.downloadUrl.split('/').pop() || 'resume.pdf';
+    link.href = resumeData.downloadUrl;
+    link.download = resumeData.downloadUrl.split('/').pop() || 'resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -42,17 +44,17 @@ export function Resume() {
           <div className="flex items-center justify-between">
             <div>
               <h3 className="text-lg font-medium text-foreground">
-                {resumeDetails.title}
+                {resumeData.title}
               </h3>
               <p className="text-sm text-muted-foreground">
-                {resumeDetails.description}
+                {resumeData.description}
               </p>
               <div className="mt-1 flex text-xs text-muted-foreground">
-                <span>{resumeDetails.fileType}</span>
+                <span>{resumeData.fileType}</span>
                 <span className="mx-2">•</span>
-                <span>Updated {resumeDetails.lastUpdated}</span>
+                <span>Updated {resumeData.lastUpdated}</span>
                 <span className="mx-2">•</span>
-                <span>{resumeDetails.fileSize}</span>
+                <span>{resumeData.fileSize}</span>
               </div>
             </div>
 

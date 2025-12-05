@@ -8,46 +8,46 @@ import Script from "next/script";
 import "./globals.css";
 
 // Load Inter font for non-Apple devices
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "Yuvraj Singh Portfolio",
-  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
+  title: "SuryaPrakash K - AI & Cybersecurity Portfolio",
+  description: "Interactive portfolio of SuryaPrakash K, a Security Engineer specializing in AI/ML for Cybersecurity with 4+ years of experience in threat detection and security automation",
   keywords: [
-    "Yuvraj Singh", 
-    "Portfolio", 
-    "Developer", 
-    "AI", 
-    "Interactive", 
-    "Memoji", 
-    "Web Development",
-    "Full Stack",
-    "Next.js",
-    "React"
+    "SuryaPrakash K",
+    "Portfolio",
+    "Security Engineer",
+    "AI Cybersecurity",
+    "Machine Learning Security",
+    "Threat Detection",
+    "Network Security",
+    "Malware Analysis",
+    "Security Automation",
+    "Vulnerability Analysis"
   ],
   authors: [
     {
-      name: "Yuvraj Singh",
-      url: "https://yuvraj.bio",
+      name: "SuryaPrakash K",
+      url: "https://github.com/SuryaPrakash-root",
     },
   ],
-  creator: "Yuvraj Singh",
+  creator: "SuryaPrakash K",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yuvraj.bio",
-    title: "Yuvraj Singh Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Yuvraj Singh Portfolio",
+    url: "https://github.com/SuryaPrakash-root",
+    title: "SuryaPrakash K - AI & Cybersecurity Portfolio",
+    description: "Security Engineer specializing in AI/ML for Cybersecurity with expertise in threat detection and security automation",
+    siteName: "SuryaPrakash K Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yuvraj Singh Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@yuvrajsingh",
+    title: "SuryaPrakash K - AI & Cybersecurity",
+    description: "Security Engineer | AI/ML for Cybersecurity | Threat Detection & Security Automation",
+    creator: "@suryaprakash",
   },
   icons: {
     icon: [

@@ -32,7 +32,22 @@ export async function POST(req: Request) {
     const { messages } = await req.json();
     console.log('[CHAT-API] Incoming messages:', messages);
 
-    messages.unshift(SYSTEM_PROMPT);
+    // Filter and validate messages to prevent role sequencing errors
+    const filteredMessages = messages.filter((msg: any) => {
+      // Keep user and assistant messages
+      if (msg.role === 'user' || msg.role === 'assistant') {
+        return true;
+      }
+      // Filter out tool messages that might cause sequencing issues
+      if (msg.role === 'tool') {
+        console.log('[CHAT-API] Filtering out tool message to prevent sequencing error');
+        return false;
+      }
+      return true;
+    });
+
+    // Add system prompt at the beginning
+    filteredMessages.unshift(SYSTEM_PROMPT);
 
     const tools = {
       getProjects,
@@ -48,7 +63,7 @@ export async function POST(req: Request) {
 
     const result = streamText({
       model: mistral('mistral-large-latest'),
-      messages,
+      messages: filteredMessages,
       toolCallStreaming: true,
       tools,
       maxSteps: 2,
