@@ -1,209 +1,148 @@
-# Surya Prakash - AI/ML & Cybersecurity Engineer
+<div align="center">
 
-> **Results-driven Information Security Analyst transitioning into AI-driven Cybersecurity**
-> Combines 4 years of hands-on experience in network defense, cloud security, and incident response with advanced knowledge in Artificial Intelligence and Machine Learning.
-> Specializes in developing and applying ML models for threat prediction, anomaly detection, and automated security operations (AIOps).
-> **Location:** Tiruppur, Tamil Nadu, India
+  <br />
+  <p>
+    <a href="https://www.yuvraj.bio"><img src="assets/readme-photo.png" alt="AI Portfolio Banner" width="100%"/></a>
+  </p>
+  <br />
 
----
-
-## 👋 About Me
-
-I'm an experienced Information Security Analyst with a strong foundation in network defense, cloud security, and incident response. Currently transitioning into AI-driven cybersecurity with expertise in machine learning for threat prediction and anomaly detection. My passion is leveraging AI to enhance security resilience, optimize detection capabilities, and reduce human response time in cybersecurity ecosystems.
-
-### 🎯 Current Focus
-
-- **AI/ML for Cybersecurity**: Developing machine learning models for threat prediction, anomaly detection, and automated security operations (AIOps)
-- **Network Security Architecture**: Designing and deploying secure network infrastructure using Fortinet and Juniper products
-- **Cloud Security**: AWS Security, compliance with ISO and GDPR standards
-- **Data Engineering**: Building ML pipelines for security analytics and threat intelligence
-- **Security Automation**: Automating incident response and network hardening with PowerShell and Bash
+  <h1>🌐 World's First AI-Native Portfolio 🤖✨</h1>
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+### **Badges**
 
-### Cybersecurity Infrastructure
-- **Firewalls & Network Security**: Fortinet FortiGate, Cisco, Aruba
-- **Cloud Security**: AWS Security, Security Groups, VPC Configuration
-- **Network Defense**: SD-WAN Deployment, IDS/IPS, SIEM, Threat Intelligence
-- **Security Tools**: Wireshark, Nmap, Burp Suite, Windows Defender
-- **Compliance**: ISO Standards, GDPR, SOC 2
-
-### AI & Machine Learning
-- **Libraries**: Scikit-learn, PyTorch, TensorFlow, Keras
-- **Data Processing**: Python, Pandas, NumPy
-- **NLP & Computer Vision**: Natural Language Processing, Computer Vision
-- **Model Optimization**: Hyperparameter tuning, Model evaluation
-- **Data Science**: Exploratory Data Analysis (EDA), Feature Engineering
-
-### Programming & Development
-- **Languages**: Python, PowerShell, Bash
-- **Web Development**: HTML, CSS, JavaScript
-- **Databases**: SQL, Data Management
-- **Tools**: Git, GitHub, Jupyter Notebooks, VS Code
-
-### Data Visualization & Analytics
-- **Tableau**: Dashboard creation and data visualization
-- **Matplotlib & Seaborn**: Python-based visualization
-- **Jupyter Notebooks**: Interactive analysis and documentation
-
-### Development & Deployment
-- **Containerization**: Docker
-- **Version Control**: Git & GitHub
-- **Automation**: n8n (Workflow Automation), Microsoft SCCM
-- **CI/CD**: Automated deployment pipelines
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/yuvraj0412s/Yuvi_portfolio?style=for-the-badge" alt="Repo Size">
+  <img src="https://img.shields.io/github/license/yuvraj0412s/Yuvi_portfolio?style=for-the-badge" alt="License">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployment"></a>
+  <a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"></a>
+  <a href="https://mistral.ai/"><img src="https://img.shields.io/badge/Mistral-FF7E00?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral API"></a>
+  <a href="https://github.com/yuvraj0412s/Yuvi_portfolio/stargazers"><img src="https://img.shields.io/github/stars/yuvraj0412s/Yuvi_portfolio?style=for-the-badge&color=ffd700" alt="Repo Stars"></a>
+  <a href="https://github.com/yuvraj0412s/Yuvi_portfolio/graphs/contributors"><img src="https://img.shields.io/github/contributors/yuvraj0412s/Yuvi_portfolio?style=for-the-badge&color=ff69b4" alt="Contributors"></a>
+</p>
 
 ---
 
-## 💼 Professional Experience
+### **About The Project** 💡
 
-### Information Security Analyst
-**Lingaasys Technology, Tiruppur, TN** | *Sep 2021 - Present*
+Static portfolios are a thing of the past. They present a one-sided, lifeless view of a developer's journey. I decided to build **[yuvraj.bio](https://www.yuvraj.bio)** to break that mold.
 
-**Key Achievements:**
-- Designed and deployed Fortinet SD-WAN across 21 branches, improving secure connectivity and network performance
-- Configured Fortinet Firewalls with advanced security policies, IPS, and traffic management capabilities
-- Led cryptocurrency mining investigation: Identified and neutralized unauthorized crypto mining on corporate systems
-- Conducted AWS Cloud migration ensuring data integrity and compliance with ISO and GDPR standards
-- Automated endpoint patching and deployment using Microsoft SCCM, reducing manual intervention
-- Delivered 40% risk reduction through network hardening and proactive security analytics
-- Developed incident response playbooks and comprehensive policy documentation for audit readiness
-- Collaborated with cross-functional teams to implement AI-based threat monitoring prototypes for log analysis
+This project is an **AI-powered, interactive portfolio** that transforms the "About Me" page into a dynamic, engaging conversation. Instead of forcing recruiters, developers, and friends to scroll endlessly through information, it invites them to ask questions and receive answers tailored specifically to them.  
 
-**Technical Responsibilities:**
-- Network security infrastructure design and maintenance
-- Firewall configuration and management
-- Incident response and threat analysis
-- Security compliance and audit preparation
-- Cloud security assessment and implementation
+It’s a portfolio that doesn't just show—it communicates.
 
 ---
 
-## 🧠 AI/ML Project Portfolio
+### **Features** ✨
 
-### Featured AI/ML Projects
-
-1. **Chatbot using Hugging Face**
-   - Built a conversational AI chatbot leveraging transformer-based NLP for contextual responses
-   - Tech: Hugging Face, Transformers, Python
-
-2. **Face Detection & Style Transfer**
-   - Applied CNNs and Neural Style Transfer for real-time artistic face transformations
-   - Tech: PyTorch, OpenCV, Computer Vision
-
-3. **Customer Feedback Analysis with NLP**
-   - Implemented sentiment analysis and text summarization using deep learning and text mining
-   - Tech: NLTK, TextBlob, Python
-
-4. **PhonePay Transaction Fraud Detection**
-   - Developed ML model for transaction fraud detection and anomaly analysis
-   - Tech: Scikit-learn, Pandas, Python
-
-5. **Luxury Housing Sales Analysis**
-   - Applied regression models for market trend prediction and price analytics
-   - Tech: Scikit-learn, Matplotlib, Python
-
-6. **Content Monetization Modeler**
-   - Built predictive models to optimize ad monetization and user engagement
-   - Tech: Scikit-learn, Pandas, Python
-
-7. **Amazon Music Clustering**
-   - Applied unsupervised clustering to group user preferences and listening patterns
-   - Tech: Scikit-learn, Python
-
-8. **Multiclass Fish Image Classification**
-   - Trained CNN model for fish species classification with high accuracy
-   - Tech: TensorFlow, Keras, Python
+*   **🗣️ Interactive AI Avatar:** Engage in real-time conversation. Ask anything from my tech stack to my hobbies and get instant, context-aware answers.
+*   **🧠 Context-Aware Engine:** The AI's personality and responses adapt based on who it's talking to—whether you're a recruiter, a fellow developer, or a friend.
+*   **🎨 Dynamic & Responsive UI:** A sleek, modern interface built with TailwindCSS and brought to life with Framer Motion animations.
+*   **🚀 Built for Everyone:** Crafted to provide a unique experience for tech recruiters, potential collaborators, and curious friends alike.
+*   **💬 No More Boring Bios:** This portfolio talks *back*.
 
 ---
 
-## 📚 Core Competencies
+### **Tech Stack** 🛠️
 
-### Security & Infrastructure
-- Cybersecurity Architecture & Design
-- Network Security & Defense
-- Firewall Configuration & Management
-- Cloud Security (AWS)
-- Incident Response & Threat Analysis
-- Security Infrastructure Design
-- Compliance & Audit Management
-- Endpoint Security
-
-### AI & Machine Learning
-- Machine Learning & Deep Learning
-- Threat Prediction Models
-- Anomaly Detection Systems
-- Natural Language Processing (NLP)
-- Computer Vision
-- Data Engineering & Processing
-- Model Development & Optimization
-- Feature Engineering
-
-### Data Science & Analytics
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing & Cleaning
-- Statistical Analysis
-- Data Visualization
-- Time Series Analysis
-
-### Development & Tools
-- Python Development
-- Automation & Workflow Design
-- CI/CD Pipeline Implementation
-- Security Tool Administration
-- Technical Documentation
+| **Category**      | **Technology**                                                                                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**      | [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/) |
+| **Backend**       | [Node.js](https://nodejs.org/), Next.js API Routes                                                                     |
+| **AI & APIs**     | [OpenAI API](https://openai.com/), [Mistral API](https://mistral.ai/), [GitHub API](https://docs.github.com/en/rest)      |
+| **Deployment**    | [Vercel](https://vercel.com/)                                                                                         |
+| **Package Manager**| [pnpm](https://pnpm.io/)                                                                                              |
 
 ---
 
-## 🎓 Certifications
+### **Installation & Usage** 🚀
 
-- **Certified Ethical Hacker (CEH)**
-- **Microsoft Certified Solutions Expert (MCSE)**
-- **Cisco Certified Network Associate (CCNA)**
-- **Red Hat Linux (RHL)**
-- **Fortinet NSE 1, 2, 3** (Network Security Expert)
-- **IITM Pravartak** - Advanced AI/ML Certification
+Want to get this project running on your local machine? Follow these simple steps.
 
----
+#### **Prerequisites**
+-   Node.js (v18 or higher)
+-   pnpm package manager
+-   Mistral API Token
+-   GitHub API Token
 
-## 🏫 Education
+#### **Local Setup**
 
-**Bachelor of Engineering in Mechatronics**
-Anna University, Coimbatore, Tamil Nadu | 2020
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/yuvraj0412s/Yuvi_portfolio.git
+    cd Yuvi_portfolio
+    ```
 
----
+2.  **Install dependencies:**
+    ```sh
+    pnpm install
+    ```
 
-## 🌱 Community Contributions
+3.  **Set up your environment variables:**
+    Create a `.env.local` file in the root of your project and add the following keys:
+    ```env
+    MISTRAL_API_KEY="your_mistral_api_key_here"
+    GITHUB_TOKEN="your_github_token_here"
+    ```
+    *   Get your Mistral API Key from [admin.mistral.ai](https://admin.mistral.ai/organization/api-keys).
+    *   Generate your GitHub Token at [github.com/settings/tokens](https://github.com/settings/personal-access-tokens).
 
-- **OWASP Coimbatore Volunteer**: Conducted cybersecurity awareness and threat simulation sessions
-- **DEFCON India**: Participated in cybersecurity awareness initiatives
-- **Internal Workshops**: Conducted training on AI in Cybersecurity and security automation
-- **Employee Training**: Promoted cybersecurity awareness campaigns for employees and students
+4.  **Run the development server:**
+    ```sh
+    pnpm dev
+    ```
 
----
-
-## 🔗 Connect With Me
-
-- **Email**: [Suryaprakash.kzohomail.in](mailto:Suryaprakash.kzohomail.in)
-- **LinkedIn**: [surya-prakash5522](https://linkedin.com/in/surya-prakash5522)
-- **GitHub**: [SuryaPrakash-root](https://github.com/SuryaPrakash-root)
-- **Credly Profile**: [suryaprakash](https://www.credly.com/users/suryaprakash)
-- **Location**: Tiruppur, Tamil Nadu, India
-
----
-
-## 📊 Quick Stats
-
-- **Years of Experience**: 4+ years in cybersecurity
-- **Focus Areas**: AI/ML for Cybersecurity, Network Security, Cloud Security
-- **Key Skills**: Fortinet FortiGate, AWS, Python, Machine Learning, Network Defense
-- **Current Goal**: Building AI-powered threat detection and response systems
+5.  **Open your browser** and navigate to `http://localhost:3000`.
 
 ---
 
-## 📄 License
+### **Contributing** 🤝
 
-This portfolio is open source. Feel free to fork and adapt it for your needs.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-**Last Updated**: December 2025
+1.  **Fork** the Project.
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the Branch (`git push origin feature/AmazingFeature`).
+5.  Open a **Pull Request**.
+
+Please feel free to open an issue if you find a bug or have a feature suggestion.  
+For security issues, see [SECURITY.md](SECURITY.md).
+
+---
+
+### **Roadmap** 🗺️
+
+-   [ ] Add more AI personality "modes"
+-   [ ] Integrate a project showcase with live demos
+-   [ ] Implement a light/dark theme toggle
+-   [ ] Add multilingual support for the AI chat
+
+---
+
+### **License** 📄
+
+This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+### **Contact & Links** 🔗
+
+**Yuvraj Singh** - Let's connect!
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Live_Demo-yuvraj.bio-2ea44f?style=for-the-badge&logo=vercel)](https://www.yuvraj.bio)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yuvraj-singh-77601827a/)
+
+</div>
+
+---
+
+### **Tags**
+
+`#AIPortfolio` `#NextJS` `#React` `#Portfolio` `#Vercel` `#OpenAI` `#MistralAI` `#DeveloperPortfolio` `#WebDevelopment` `#InteractiveUI`
